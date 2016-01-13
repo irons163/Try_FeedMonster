@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及編碼方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!-- 新增一個線性版面配置 -->
+    <ImageView
+    	android:id="@+id/myImageView"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/common"
+    	android:layout_gravity="center"
+    /><!-- 新增一個ImageView控制項 -->
+    <TextView
+    	android:id="@+id/myTextView"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:textSize="20px"
+    	android:text="狀態：普通"
+    /><!-- 新增一個TextView文字控制項 -->
+	<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_gravity="center"
+    ><!--新增一個水平的線性版面配置 -->
+    	<Button
+    		android:id="@+id/bath"
+    		android:layout_width="106px"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="bottom"
+    		android:textSize="18px"
+    		android:text="洗澡"
+    	/><!-- 新增洗澡按鈕-->
+    	<Button
+    		android:id="@+id/engage"
+    		android:layout_width="106px"
+    		android:layout_height="wrap_content"
+    		android:text="逗弄"
+    		android:textSize="18px"
+    		android:layout_gravity="bottom"
+    	/><!-- 新增逗弄按鈕-->
+
+    	<Button
+    		android:id="@+id/find"
+    		android:layout_width="106px"
+    		android:layout_height="wrap_content"
+    		android:text="尋找"
+    		android:textSize="18px"
+    		android:layout_gravity="bottom"
+    	/><!-- 新增尋找按鈕-->
+
+    	<Button
+    	    android:id="@+id/ui"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="ui" />
+
+    	<Button
+    	    android:id="@+id/store"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="bottom"
+    	    android:text="store" />
+
+    	<Button
+    	    android:id="@+id/fight"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="bottom"
+    	    android:text="fight" />
+
+    </LinearLayout>
+</LinearLayout>
