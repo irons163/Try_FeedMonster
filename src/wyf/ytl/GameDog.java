@@ -8,7 +8,6 @@ import com.equipment.DefaultPetInfo;
 import com.equipment.DefaultWeaponEquipment;
 import com.equipment.Equipment;
 import com.equipment.PetInfo;
-import com.pets.Pet;
 
 //«Å§i®M¥ó»y¥y
 public class GameDog extends Pet implements IGameDog {

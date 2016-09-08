@@ -2,7 +2,6 @@ package wyf.ytl;
 
 import com.enemy.Enemy;
 import com.enemy.EnemyDog;
-import com.pets.Pet;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -41,7 +40,7 @@ public class FightActivity extends Activity implements OnClickListener {
 	}
 	Enemy enemy;
 	private void createRandomEnemy(){
-		enemy = new EnemyDog();
+//		enemy = new EnemyDog();
 	}
 	
 	private void fight(){
@@ -51,7 +50,7 @@ public class FightActivity extends Activity implements OnClickListener {
 		
 		Pet pet = Sample_8_3.gameDog;
 		
-		enemy.doSkill(pet);
+//		enemy.doSkill(pet);
 		
 	}
 

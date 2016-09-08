@@ -8,6 +8,13 @@ import android.graphics.Canvas;
 
 
 public class EnemyDog extends Enemy{
+	public EnemyDog(float x, float y, boolean autoAdd) {
+		super(x, y, autoAdd);
+		// TODO Auto-generated constructor stub
+		enemyType = EnemyType.Dog;
+		skill = new HeavyHitSkill();
+	}
+
 	enum EnemyType {
 		Dog, Cat, Cow
 	}
@@ -16,11 +23,6 @@ public class EnemyDog extends Enemy{
 	
 	Skill skill;
 	
-	public EnemyDog() {
-		// TODO Auto-generated constructor stub
-		enemyType = EnemyType.Dog;
-		skill = new HeavyHitSkill();
-	}
 	
 	public void onDrow(Canvas canvas){
 //		canvas.drawBitmap(bitmap, matrix, paint);
