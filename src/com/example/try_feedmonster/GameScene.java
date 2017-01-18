@@ -115,7 +115,7 @@ public class GameScene extends EasyScene implements ButtonLayer.OnClickListener{
 	@Override
 	public void doDraw(Canvas canvas) {
 		// TODO Auto-generated method stub
-		LayerManager.drawLayers(canvas, null);
+		LayerManager.getInstance().drawLayers(canvas, null);
 		
 		fight.drawSelf(canvas, null);
 	}

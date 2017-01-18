@@ -46,7 +46,7 @@ public class FightScene extends EasyScene{
 	@Override
 	public void doDraw(Canvas canvas) {
 		// TODO Auto-generated method stub
-		LayerManager.drawLayers(canvas, null);
+		LayerManager.getInstance().drawLayers(canvas, null);
 	}
 
 	@Override
