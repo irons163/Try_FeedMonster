@@ -24,7 +24,7 @@ public class FightScene extends EasyScene{
 	}
 
 	@Override
-	public void initGameView(Activity activity, IGameController gameController,
+	public GameView initGameView(Activity activity, IGameController gameController,
 			IGameModel gameModel) {
 		// TODO Auto-generated method stub
 		gameView = new GameView(activity, gameController, gameModel);	
